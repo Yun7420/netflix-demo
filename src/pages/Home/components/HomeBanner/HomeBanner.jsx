@@ -42,8 +42,6 @@ const HomeBanner = () => {
   if (isError) {
     return <Error error={error} />;
   }
-  
-  console.log(videoData)
 
   return (
     <div
@@ -67,7 +65,7 @@ const HomeBanner = () => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="bg-dark" >
-          <YouTube videoId={videoData.results[0].key} opts={opts} className="youtube" />
+          <YouTube videoId={videoData && videoData.results[0].key} opts={opts} className="youtube" />
         </Modal.Body>
         </Modal>
       </Container>

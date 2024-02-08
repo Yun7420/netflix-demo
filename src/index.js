@@ -13,7 +13,7 @@ const queryClient = new QueryClient();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
       <App />
     </BrowserRouter>
 
