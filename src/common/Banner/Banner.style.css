@@ -1,0 +1,65 @@
+/* Banner */
+.banner {
+  position: relative;
+
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(to top, #111 10%, transparent);
+}
+
+.banner_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.video_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+}
+
+.movie_modal .modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+
+  margin: 0 !important;
+
+  width: 100%;
+}
+
+.movie_modal .modal-content {
+  width: 100%;
+  height: 80vh;
+}
+
+.movie_modal .btn-close {
+  --bs-btn-close-bg: url("../../assets/img/modal/close_btn_icon.svg") !important; 
+}
+
+.movie_modal .youtube {
+  height: 100%;
+}
