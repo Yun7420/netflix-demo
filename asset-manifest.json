@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/netflix-demo-2024/static/css/main.cd36c81c.css",
-    "main.js": "/netflix-demo-2024/static/js/main.60f3d74a.js",
+    "main.js": "/netflix-demo-2024/static/js/main.a4c6674b.js",
     "static/media/netflix_logo.svg": "/netflix-demo-2024/static/media/netflix_logo.171859d881572fb8ade04d7e4bd31444.svg",
     "static/media/revicons.eot": "/netflix-demo-2024/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/netflix-demo-2024/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -10,10 +10,10 @@
     "index.html": "/netflix-demo-2024/index.html",
     "static/media/header_toggle_button_icon.svg": "/netflix-demo-2024/static/media/header_toggle_button_icon.a57ac13ca36dc9907ea6.svg",
     "main.cd36c81c.css.map": "/netflix-demo-2024/static/css/main.cd36c81c.css.map",
-    "main.60f3d74a.js.map": "/netflix-demo-2024/static/js/main.60f3d74a.js.map"
+    "main.a4c6674b.js.map": "/netflix-demo-2024/static/js/main.a4c6674b.js.map"
   },
   "entrypoints": [
     "static/css/main.cd36c81c.css",
-    "static/js/main.60f3d74a.js"
+    "static/js/main.a4c6674b.js"
   ]
 }
